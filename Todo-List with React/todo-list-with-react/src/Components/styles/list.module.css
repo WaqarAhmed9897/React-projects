@@ -1,0 +1,17 @@
+@import './variables.module.css';
+@import './animations.module.css';
+
+.list {
+  list-style: none;
+  margin: var(--spacing-lg) 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.empty {
+  margin-top: var(--spacing);
+  color: var(--muted);
+  text-align: center;
+  font-size: 14px;
+}

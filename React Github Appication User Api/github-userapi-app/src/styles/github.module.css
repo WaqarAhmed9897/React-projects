@@ -1,0 +1,192 @@
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.heading {
+  color: #4fc3f7;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(79, 195, 247, 0.5);
+}
+
+/* Input Section */
+.inputSection {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  padding: 12px;
+  width: 260px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 12px rgba(79, 195, 247, 0.3);
+  transition: 0.3s;
+}
+
+.inputBox:focus {
+  box-shadow: 0 0 18px rgba(79, 195, 247, 0.8);
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4fc3f7;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #039be5;
+  transform: translateY(-2px);
+}
+
+/* Error */
+.error {
+  color: #f87171;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Skeleton Loader */
+.skeletonCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  animation: pulse 1.5s infinite;
+}
+
+.skeletonAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #37474f;
+  margin: 0 auto 10px;
+}
+
+.skeletonText {
+  height: 16px;
+  background: #37474f;
+  margin: 8px auto;
+  width: 70%;
+  border-radius: 8px;
+}
+
+.skeletonStats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.skeletonStats div {
+  width: 80px;
+  height: 40px;
+  background: #37474f;
+  border-radius: 8px;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Avatar */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #4fc3f7;
+  margin-bottom: 12px;
+  box-shadow: 0 0 15px rgba(79, 195, 247, 0.6);
+}
+
+/* Name */
+.name {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.username {
+  color: #90caf9;
+  font-size: 14px;
+}
+
+.bio {
+  color: #cfd8dc;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.stats div {
+  background: rgba(79, 195, 247, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+  width: 90px;
+  transition: 0.3s;
+}
+
+.stats div:hover {
+  background: rgba(79, 195, 247, 0.25);
+}
+
+/* Button */
+.profileBtn {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #4fc3f7;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.profileBtn:hover {
+  background-color: #039be5;
+  transform: scale(1.05);
+}

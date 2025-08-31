@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main-Container {
+  margin: 30px auto;
+  width: 80%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-tabs {
+  display: flex;
+  gap: 30px;
+}
+
+.link-tabs a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.hero-section {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+}
+
+.anitmated {
+  display: flex;
+  justify-content: center;
+}
+.anitmated video {
+  border-radius: 30px;
+  height:100%;
+  width:80%;
+}
+.left-para {
+  width: 30%;
+}
+.media{
+display: inline;
+width: 50%;
+}
+.left-para p {
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.main-section {
+  height: 100vh;
+}
+
+.sec-secion {
+  display: flex;
+  justify-content: space-around;
+
+}
+.project-main-Container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.Project-row1{
+  display: flex;
+}
+.project-row2{
+
+  display: flex;
+}

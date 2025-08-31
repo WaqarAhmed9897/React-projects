@@ -1,0 +1,64 @@
+.App {
+  margin: 10px auto ;
+  background-color:black;
+}
+#a{
+  width: 90px;
+  border-radius: 50%;
+}
+#f{
+  display: flex;
+}
+.App-header {
+  background-color:white;
+  /* text-align: center; */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color:black;
+}
+.fb-content{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+  display: flex;
+}
+.fb-img{
+  width: 630px;
+  height: auto;
+}
+.postSec{
+  width: 40%;
+}
+.postBox{
+  border: 3px solid black;
+  border-radius: 10px;  
+  margin-bottom: 40px;
+}
+.fb-btn-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fa-btn{
+  color: grey;
+  width: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

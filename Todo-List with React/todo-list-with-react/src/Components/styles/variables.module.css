@@ -1,0 +1,18 @@
+:root {
+  --bg: #0f1226;
+  --panel: #171a34;
+  --text: #e6e8ff;
+  --muted: #a7abcf;
+  --accent: #6c7bff;
+  --accent-2: #00e0ff;
+  --danger: #ff5c8a;
+  --success: #35d0a3;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 22px;
+  --spacing: 14px;
+  --spacing-lg: 22px;
+  --spacing-xl: 36px;
+  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}

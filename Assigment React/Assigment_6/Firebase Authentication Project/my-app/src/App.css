@@ -1,0 +1,29 @@
+.reg{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 50%;
+    margin: 10px auto;
+    height: 500px;
+}
+.reg-inp{
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 300px;
+    height: 30px
+}
+h1{
+    text-align: center;
+}
+button{
+    margin-left: 367px;
+}
+.ad-box{
+    width: 23%;
+    background: rgb(3, 220, 198);
+    margin: auto;
+    margin-bottom: 30px;
+}
+.Dashb{
+ display: flex;
+ justify-content: space-evenly;   
+}

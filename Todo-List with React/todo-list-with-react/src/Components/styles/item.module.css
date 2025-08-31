@@ -1,0 +1,43 @@
+@import './variables.module.css';
+@import './animations.module.css';
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.10);
+  animation: fadeSlideIn .28s ease both;
+}
+
+.text {
+  overflow-wrap: anywhere;
+}
+
+.rowActions {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.editing {
+  background: rgba(0,224,255,.08);
+  border-color: rgba(0,224,255,.28);
+}
+
+.editInput {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed rgba(255,255,255,.28);
+  background: rgba(255,255,255,.08);
+  color: var(--text);
+  outline: none;
+}
+
+.saveBtn { composes: btn primary from './button.module.css'; }
+.cancelBtn { composes: btn ghost from './button.module.css'; }
+.editBtn { composes: btn ghost from './button.module.css'; }
+.deleteBtn { composes: btn danger from './button.module.css'; }

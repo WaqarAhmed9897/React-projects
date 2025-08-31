@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.ad-box{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.main-cont{
+  background-image: url(./Images/rege.png);
+  display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+}
+.reg-inp{
+padding: 10px;
+border-radius: 9px;
+outline:none;
+}
+.reg{
+  border: 2px solid black;
+  padding: 8%;
+  border-radius: 20px;
+  backdrop-filter: blur(19px)
+}
+.log{
+  border: 2px solid black;
+  padding: 8%;
+  border-radius: 20px;
+  backdrop-filter: blu
+}
+.main-log{
+  background-image: url(./Images/log.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-log h1{
+  font-size: 60px;
+  color: white;
+}
+.reg-inp-log{
+  padding: 10px;
+  border-radius: 9px;
+  outline:none; 
+}
+.a{
+  color: white;
+}
+.btn{
+  padding: 5%;
+  width: 70%;
+  background-color:mediumaquamarine;
+  font-size: larger;
+}

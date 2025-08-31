@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: aqua;
+  height: 100vh;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  padding-left: 800px;
+}
