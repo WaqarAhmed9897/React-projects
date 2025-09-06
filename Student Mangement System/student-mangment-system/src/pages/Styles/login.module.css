@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+    margin: 10px auto;
+    color: navy;
+}
+.container{
+    border-radius: 08px;
+    border: 2px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 50px auto;
+}
+.container input{
+    outline: none;
+    padding: 12px;
+    border-radius: 08px;
+
+}
+.span{
+    font-size: 30px;
+    margin: 20px 0 ;
+}
+.btn{
+    font-size: 24px;
+    border-radius: 08px;
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+    padding: 16px;
+}
